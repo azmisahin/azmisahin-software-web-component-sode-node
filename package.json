@@ -1,6 +1,6 @@
 {
   "name": "sode",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "sode ( bōd ) is browser node.",
   "dependencies": {},
   "devDependencies": {
@@ -27,7 +27,7 @@
       "npm run test",
       "git add"
     ]
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/azmisahin/azmisahin-software-web-component-sode-node.git"
