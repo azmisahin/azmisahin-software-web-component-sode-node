@@ -1,0 +1,47 @@
+{
+  "name": "sode",
+  "version": "0.0.0",
+  "description": "sode ( bōd ) is browser node.",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "test-management": "0.0.2"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src --fix && eslint tests --fix",
+    "test": "node tests"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commitmsg": "commit stage",
+      "pre-push": "npm run test && npm version patch"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "npm run test",
+      "git add"
+    ]
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azmisahin/azmisahin-software-web-component-sode-node.git"
+  },
+  "keywords": [
+    "sode",
+    "node",
+    "browser",
+    "javascript"
+  ],
+  "author": "azmisahin@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azmisahin/azmisahin-software-web-component-sode-node/issues"
+  },
+  "homepage": "https://github.com/azmisahin/azmisahin-software-web-component-sode-node#readme"
+}
