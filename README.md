@@ -52,3 +52,9 @@ Success
 --------------------------------------------------
 
 ```
+
+## Pipeline
+
+[![Build Status](https://dev.azure.com/azmisahin-github/azmisahin-software-web-component-sode-node/_apis/build/status/azmisahin-software-web-component-sode-node-CI?branchName=master)](https://dev.azure.com/azmisahin-github/azmisahin-software-web-component-sode-node/_build/latest?definitionId=12?branchName=master)
+
+[![NPM](https://nodei.co/npm/sode.png)](https://nodei.co/npm/sode/)
