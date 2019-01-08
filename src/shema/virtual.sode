@@ -1,0 +1,8 @@
+/**
+ * Virtual Files
+ */
+var VirtualFiles =
+{
+"sode":(function(module){
+  eval("console.log('Sode Start')")
+}),

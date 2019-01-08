@@ -1,5 +1,6 @@
 {
   "name": "sode",
+  "private": true,
   "version": "0.0.2",
   "description": "sode ( bōd ) is browser node.",
   "dependencies": {},
@@ -7,7 +8,9 @@
     "eslint": "^5.12.0",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.0",
-    "test-management": "0.0.2"
+    "test-management": "0.0.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1"
   },
   "main": "src/index.js",
   "scripts": {

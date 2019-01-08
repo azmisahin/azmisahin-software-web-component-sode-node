@@ -1,20 +1,11 @@
-/**
- * Sode
- *
- * Browser Node
- */
-class Sode{
+/// Sode
+var Sode = require('./sode')
 
-  /**
-   * Browser Node
-   */
-  constructor(){
+/// Config
+var Config = require('./config')
 
-    /**
-     * Sode Short Name
-     */
-    this.name = 'Sode'
-  }
-}
+/// sode set config
+var sode = new Sode(new Config())
 
-module.exports = Sode
+/// sode start
+sode.Compile().ToWeb()

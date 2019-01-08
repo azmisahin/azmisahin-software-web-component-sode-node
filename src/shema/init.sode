@@ -1,0 +1,16 @@
+
+/**
+ * Sode Initalize
+ */
+var sode = new Sode(VirtualFiles)
+
+/**
+ * Global require
+ *
+ * @param {string} id Virtual File ID
+ */
+function require(id){
+
+  /// Require
+  return sode.Require(id)
+}

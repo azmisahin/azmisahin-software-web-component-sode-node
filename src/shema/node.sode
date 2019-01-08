@@ -1,0 +1,40 @@
+/**
+ * Sode ( sōd ) is browser node.
+ *
+ * @author azmisahin@outlook.com
+ *
+ * @since 2019
+ */
+class Sode{
+
+  /**
+   * Sode Virtual Files
+   *
+   * @param {array} files Virtual Files
+   */
+  constructor(files){
+
+    /// Default Files
+    this.vFiles = files
+
+    /// Result Sode
+    return this
+  }
+}
+
+/**
+ * Require
+ *
+ * @param {string} id Virtual Files ID
+ */
+Sode.prototype.Require = function(id){
+
+  /// Try Load Virtual File
+  try {
+
+    /// Run Virtual File
+    this.vFiles[id].call()
+  } catch (error) {
+    console.log(`The virtual file [${id}] is not loaded.`)
+  }
+}
